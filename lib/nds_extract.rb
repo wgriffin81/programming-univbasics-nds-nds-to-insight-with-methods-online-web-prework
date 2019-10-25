@@ -8,8 +8,7 @@ require 'directors_database'
 def directors_totals(nds)
  pp nds
  
- puts "______________"
- puts "______________"
+ 
   
   
 end
