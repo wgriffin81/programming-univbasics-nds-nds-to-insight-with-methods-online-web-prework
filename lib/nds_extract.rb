@@ -6,7 +6,10 @@ require 'directors_database'
 # { directorOne => allTheMoneyTheyMade, ... }
 
 def directors_totals(nds)
+ pp nds
  
+ puts "______________"
+ puts "______________"
   
   
 end
