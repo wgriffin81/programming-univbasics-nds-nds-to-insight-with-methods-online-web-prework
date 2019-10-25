@@ -20,7 +20,7 @@ end
 # using director_data as input
 def gross_for_director(director_data)
   
-   director_index = 0
+  director_index = 0
   totals = {}
 
   while director_index < nds.length do
