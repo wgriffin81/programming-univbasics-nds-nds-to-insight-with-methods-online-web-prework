@@ -12,6 +12,12 @@ def directors_totals(nds)
     column_index = 0 
     while column_index < nds[row_index].length do
       grand_total += gross_for_director(nds, row_index, column_index)
+      column_index += 1 
+    end
+    row_index += 1 
+  end
+  
+  p grand_total
  
  
   
