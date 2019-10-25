@@ -6,7 +6,12 @@ require 'directors_database'
 # { directorOne => allTheMoneyTheyMade, ... }
 
 def directors_totals(nds)
+ result = {}
+ director_index = 0 
  
+ while director_index < nds.size do
+   director = nds[director_index]
+   result[dire]
  
  
   
@@ -22,5 +27,10 @@ def gross_for_director(director_data)
   index = 0 
   gross = 0 
   
+  while index < director_data[:movies].length do
+    gross += director_data[:movies][index][:worldwide_grosses]
+    index += 1 
+  end
+  gross
   
 end
