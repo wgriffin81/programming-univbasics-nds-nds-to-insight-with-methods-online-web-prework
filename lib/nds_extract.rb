@@ -19,7 +19,7 @@ end
 # using director_data as input
 def gross_for_director(director_data)
   coorinate_total = 0 
-  inner_len = nds[row_index][colum_index].length 
+  inner_len = nds[row_index][column_index].length 
   inner_index = 0 
   
   while inner_index < inner_len do
